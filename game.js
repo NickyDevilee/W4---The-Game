@@ -74,12 +74,12 @@ if (level5 == '7') {
 
 var level7;
 
-if (level6 >= '36000') {
+if (level6 <= '37000') {
 	score++;
 	alert('Goed gedaan! Het juiste antwoord was inderdaad 36000+. Je score is nu: ' + score);
 	console.log('Goed gedaan! Level 6 gehaald.');
 	document.write('<hr>' + 'Vraag: Hoeveel inwoners heeft Gorinchem ongeveer?' + '<br>' + 'Juiste antwoord: 36000+' + '<br>' + 'Jouw antwoord: ' + level6 + '<br>' + 'Tussenstand: ' + score + ' punten.');
-	level7 = prompt('Hoeveel uur zit er in een etmaal? Denk goed na!');
+	level7 = prompt('Hoeveel (miljoen) inwoners heeft Nederland? Denk goed na!');
 } else{
 	alert('Helaas! Druk op F5 of herlaad de site om opnieuw te beginnen.');
 	console.log('Helaas, level 6 fout.');
@@ -87,11 +87,11 @@ if (level6 >= '36000') {
 
 var level8;
 
-if (level7 == '24') {
+if (level7 >= '17') {
 	score++;
-	alert('Goed gedaan! Het juiste antwoord was inderdaad 24 uur. Je score is nu: ' + score);
+	alert('Goed gedaan! Het juiste antwoord was inderdaad 17+ miljoen. Je score is nu: ' + score);
 	console.log('Goed gedaan! Level 7 gehaald.');
-	document.write('<hr>' + 'Vraag: Hoeveel uur zit er in een etmaal?' + '<br>' + 'Juiste antwoord: 24 uur' + '<br>' + 'Jouw antwoord: ' + level7 + '<br>' + 'Tussenstand: ' + score + ' punten.');
+	document.write('<hr>' + 'Vraag: Hoeveel (miljoen) inwoners heeft Nederland?' + '<br>' + 'Juiste antwoord: 17+ miljoen' + '<br>' + 'Jouw antwoord: ' + level7 + '<br>' + 'Tussenstand: ' + score + ' punten.');
 	level8 = prompt('Laatste vraag! Hoeveel dagen heeft een jaar? Denk goed na!');
 } else{
 	alert('Helaas! Druk op F5 of herlaad de site om opnieuw te beginnen.');
